@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eb.iml" filepath="$PROJECT_DIR$/eb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eb-provider/eb-provider.iml" filepath="$PROJECT_DIR$/eb-provider/eb-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eb-rest/eb-rest.iml" filepath="$PROJECT_DIR$/eb-rest/eb-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ed-api/ed-api.iml" filepath="$PROJECT_DIR$/ed-api/ed-api.iml" />
+    </modules>
+  </component>
+</project>

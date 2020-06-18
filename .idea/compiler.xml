@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ed-api" />
+        <module name="eb-provider" />
+        <module name="eb-rest" />
+      </profile>
+      <profile name="Annotation profile for eb" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eb" target="1.5" />
+      <module name="eb-provider" target="1.8" />
+      <module name="eb-rest" target="1.8" />
+      <module name="ed-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eb-provider" options="-parameters" />
+      <module name="eb-rest" options="-parameters" />
+      <module name="ed-api" options="-parameters" />
+    </option>
+  </component>
+</project>
